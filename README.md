@@ -20,7 +20,7 @@ A modern, responsive, high-converting bilingual website (English & Marathi) deve
 - **Sub-Tagline**: *Reliable Technical Maintenance • Professional Facility Support • Long-Term Asset Care*
 - **Regional Coverage**: Dhule • Shirpur • Pune • Nearby Regions
 - **Phone / Emergency Hotline**: `+91 93562 97418`
-- **Email**: `unimatrixopc@gmail.com`
+- **Email**: `support@unimatrix.in`
 
 ### 📍 Operational Offices:
 1. **Main Head Office (Shirpur / Dhule)**:
