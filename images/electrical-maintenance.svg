@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="elecBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="accentVolt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#elecBg)" />
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="50" x2="600" y2="50" />
+    <line x1="0" y1="100" x2="600" y2="100" />
+    <line x1="0" y1="150" x2="600" y2="150" />
+    <line x1="0" y1="200" x2="600" y2="200" />
+    <line x1="0" y1="250" x2="600" y2="250" />
+    <line x1="0" y1="300" x2="600" y2="300" />
+    <line x1="0" y1="350" x2="600" y2="350" />
+    <line x1="50" y1="0" x2="50" y2="400" />
+    <line x1="100" y1="0" x2="100" y2="400" />
+    <line x1="150" y1="0" x2="150" y2="400" />
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="250" y1="0" x2="250" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="400" />
+    <line x1="350" y1="0" x2="350" y2="400" />
+    <line x1="400" y1="0" x2="400" y2="400" />
+    <line x1="450" y1="0" x2="450" y2="400" />
+    <line x1="500" y1="0" x2="500" y2="400" />
+    <line x1="550" y1="0" x2="550" y2="400" />
+  </g>
+
+  <!-- HT/LT Electrical Control Panel -->
+  <rect x="70" y="50" width="280" height="300" rx="8" fill="url(#panelGrad)" stroke="#334155" stroke-width="4" />
+  <rect x="85" y="65" width="250" height="40" rx="4" fill="#0284C7" opacity="0.15" />
+  <text x="100" y="90" fill="#38BDF8" font-family="'Inter', sans-serif" font-weight="700" font-size="14">HT / LT MAIN PANEL - 415V</text>
+
+  <!-- Digital Meters -->
+  <rect x="95" y="120" width="60" height="45" rx="3" fill="#000000" stroke="#0284C7" stroke-width="1.5" />
+  <text x="105" y="145" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">415 V</text>
+  <text x="105" y="158" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="8">VOLTAGE R-Y</text>
+
+  <rect x="170" y="120" width="60" height="45" rx="3" fill="#000000" stroke="#0284C7" stroke-width="1.5" />
+  <text x="180" y="145" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">280 A</text>
+  <text x="180" y="158" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="8">CURRENT R</text>
+
+  <rect x="245" y="120" width="60" height="45" rx="3" fill="#000000" stroke="#0284C7" stroke-width="1.5" />
+  <text x="255" y="145" fill="#10B981" font-family="monospace" font-size="14" font-weight="bold">50.0</text>
+  <text x="255" y="158" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="8">FREQ Hz</text>
+
+  <!-- Circuit Breakers / MCCB Switches -->
+  <g transform="translate(95, 185)">
+    <!-- Switch 1 -->
+    <rect x="0" y="0" width="45" height="70" rx="3" fill="#334155" />
+    <rect x="15" y="10" width="15" height="30" rx="2" fill="#10B981" />
+    <circle cx="22.5" cy="55" r="4" fill="#EF4444" />
+
+    <!-- Switch 2 -->
+    <rect x="55" y="0" width="45" height="70" rx="3" fill="#334155" />
+    <rect x="70" y="10" width="15" height="30" rx="2" fill="#10B981" />
+    <circle cx="77.5" cy="55" r="4" fill="#EF4444" />
+
+    <!-- Switch 3 -->
+    <rect x="110" y="0" width="45" height="70" rx="3" fill="#334155" />
+    <rect x="125" y="10" width="15" height="30" rx="2" fill="#10B981" />
+    <circle cx="132.5" cy="55" r="4" fill="#EF4444" />
+
+    <!-- Switch 4 -->
+    <rect x="165" y="0" width="45" height="70" rx="3" fill="#334155" />
+    <rect x="180" y="10" width="15" height="30" rx="2" fill="#10B981" />
+    <circle cx="187.5" cy="55" r="4" fill="#EF4444" />
+  </g>
+
+  <!-- Busbar indicators -->
+  <circle cx="130" cy="285" r="8" fill="#EF4444" />
+  <circle cx="170" cy="285" r="8" fill="#FBBF24" />
+  <circle cx="210" cy="285" r="8" fill="#0284C7" />
+  <text x="230" y="290" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">R - Y - B 3-PHASE ACTIVE</text>
+
+  <!-- Diesel Generator (DG Set) Silhouette -->
+  <rect x="380" y="140" width="160" height="170" rx="6" fill="#1E293B" stroke="#047857" stroke-width="3" />
+  <text x="400" y="170" fill="#34D399" font-family="'Inter', sans-serif" font-weight="700" font-size="13">DG SET BACKUP</text>
+  <!-- Exhaust & Radiator Grill -->
+  <rect x="395" y="185" width="130" height="60" rx="3" fill="#0F172A" />
+  <line x1="405" y1="195" x2="515" y2="195" stroke="#475569" stroke-width="2" />
+  <line x1="405" y1="205" x2="515" y2="205" stroke="#475569" stroke-width="2" />
+  <line x1="405" y1="215" x2="515" y2="215" stroke="#475569" stroke-width="2" />
+  <line x1="405" y1="225" x2="515" y2="225" stroke="#475569" stroke-width="2" />
+  <line x1="405" y1="235" x2="515" y2="235" stroke="#475569" stroke-width="2" />
+  <!-- AMF Controller -->
+  <rect x="395" y="255" width="60" height="40" rx="3" fill="#000000" stroke="#38BDF8" stroke-width="1" />
+  <text x="405" y="278" fill="#10B981" font-family="monospace" font-size="11">AUTO ON</text>
+
+  <!-- Big Voltage Lightning Emblem -->
+  <path d="M 490 80 L 460 130 L 485 130 L 450 180 L 510 115 L 480 115 Z" fill="url(#accentVolt)" filter="drop-shadow(0 0 10px rgba(245, 158, 11, 0.6))" />
+</svg>

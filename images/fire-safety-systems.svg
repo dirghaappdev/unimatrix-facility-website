@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fireBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7F1D1D" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="extingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="50%" stop-color="#DC2626" />
+      <stop offset="100%" stop-color="#991B1B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#fireBg)" />
+
+  <!-- Fire Hydrant Valve Pillar -->
+  <g transform="translate(80, 80)">
+    <!-- Base -->
+    <rect x="25" y="190" width="100" height="30" rx="4" fill="#B91C1C" stroke="#FECACA" stroke-width="1.5" />
+    <!-- Column -->
+    <rect x="40" y="40" width="70" height="150" rx="6" fill="#DC2626" stroke="#FECACA" stroke-width="2" />
+    <!-- Top dome -->
+    <path d="M 40 40 Q 75 10 110 40 Z" fill="#EF4444" stroke="#FECACA" stroke-width="2" />
+    <!-- Outlet Nozzle Left -->
+    <rect x="15" y="80" width="25" height="30" rx="3" fill="#B91C1C" stroke="#FDE047" stroke-width="2" />
+    <!-- Outlet Nozzle Right -->
+    <rect x="110" y="80" width="25" height="30" rx="3" fill="#B91C1C" stroke="#FDE047" stroke-width="2" />
+    <!-- Operating Nut on top -->
+    <polygon points="65,10 85,10 75,0" fill="#FDE047" />
+    <text x="35" y="240" fill="#FCA5A5" font-family="'Inter', sans-serif" font-weight="bold" font-size="12">HYDRANT STANDPOST</text>
+  </g>
+
+  <!-- Commercial Fire Extinguisher (ABC Powder) -->
+  <g transform="translate(260, 60)">
+    <!-- Tank Cylinder -->
+    <rect x="30" y="60" width="90" height="180" rx="20" fill="url(#extingGrad)" stroke="#FFFFFF" stroke-width="2" />
+    <!-- Label -->
+    <rect x="35" y="100" width="80" height="80" fill="#FFFFFF" rx="4" />
+    <text x="50" y="125" fill="#DC2626" font-family="'Inter', sans-serif" font-weight="900" font-size="16">ABC</text>
+    <text x="45" y="145" fill="#1E293B" font-family="'Inter', sans-serif" font-weight="bold" font-size="9">POWDER</text>
+    <text x="42" y="165" fill="#047857" font-family="'Inter', sans-serif" font-weight="bold" font-size="8">TESTED 2026</text>
+    <!-- Valve & Handle on top -->
+    <rect x="65" y="30" width="20" height="30" fill="#1E293B" />
+    <path d="M 50 30 L 100 20" stroke="#000000" stroke-width="6" stroke-linecap="round" />
+    <path d="M 50 40 L 95 40" stroke="#000000" stroke-width="5" stroke-linecap="round" />
+    <!-- Pressure gauge -->
+    <circle cx="85" cy="48" r="8" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" />
+    <line x1="85" y1="48" x2="88" y2="43" stroke="#10B981" stroke-width="2" />
+    <!-- Discharge Hose -->
+    <path d="M 85 45 Q 140 70 120 180" fill="none" stroke="#1E293B" stroke-width="8" stroke-linecap="round" />
+    <text x="25" y="260" fill="#FCA5A5" font-family="'Inter', sans-serif" font-weight="bold" font-size="12">FIRE EXTINGUISHER</text>
+  </g>
+
+  <!-- Fire Alarm & Mock Drill Panel -->
+  <g transform="translate(420, 80)">
+    <rect x="0" y="0" width="130" height="160" rx="8" fill="#1E293B" stroke="#EF4444" stroke-width="3" />
+    <text x="15" y="30" fill="#FCA5A5" font-family="'Inter', sans-serif" font-weight="bold" font-size="11">FIRE PANEL</text>
+    <!-- Strobe and Alarm Bell -->
+    <circle cx="65" cy="70" r="22" fill="#DC2626" stroke="#FEF08A" stroke-width="2" />
+    <!-- Flashing Rays -->
+    <line x1="65" y1="40" x2="65" y2="35" stroke="#FEF08A" stroke-width="2" />
+    <line x1="95" y1="70" x2="100" y2="70" stroke="#FEF08A" stroke-width="2" />
+    <line x1="35" y1="70" x2="30" y2="70" stroke="#FEF08A" stroke-width="2" />
+    <!-- Status Light -->
+    <rect x="25" y="115" width="80" height="25" rx="4" fill="#000000" />
+    <circle cx="40" cy="127" r="4" fill="#10B981" />
+    <text x="50" y="131" fill="#10B981" font-family="monospace" font-size="9" font-weight="bold">SYSTEM OK</text>
+    <text x="15" y="185" fill="#FCA5A5" font-family="'Inter', sans-serif" font-weight="bold" font-size="12">ALARM CONTROL</text>
+  </g>
+
+  <!-- Statutory Badge -->
+  <rect x="70" y="310" width="460" height="45" rx="10" fill="#0F172A" stroke="#EF4444" stroke-width="1.5" />
+  <text x="90" y="338" fill="#FECACA" font-family="'Inter', sans-serif" font-weight="bold" font-size="13">STATUTORY COMPLIANCE: FIRE NOC & PUMP MOCK DRILL READY</text>
+</svg>

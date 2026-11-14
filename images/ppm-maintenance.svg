@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ppmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#ppmBg)" />
+
+  <!-- Clipboard & Checklist -->
+  <g transform="translate(180, 50)">
+    <!-- Clipboard Board -->
+    <rect x="0" y="20" width="240" height="300" rx="12" fill="#334155" stroke="#64748B" stroke-width="3" />
+    <!-- Metal Clip -->
+    <rect x="70" y="5" width="100" height="30" rx="6" fill="#94A3B8" stroke="#CBD5E1" stroke-width="2" />
+    <circle cx="120" cy="18" r="6" fill="#1E293B" />
+    <!-- Paper Sheet -->
+    <rect x="20" y="45" width="200" height="260" rx="6" fill="#FFFFFF" />
+    
+    <!-- Checklist Header -->
+    <text x="35" y="75" fill="#047857" font-family="'Inter', sans-serif" font-weight="900" font-size="13">PLANNED PREVENTIVE (PPM)</text>
+    <text x="35" y="90" fill="#64748B" font-family="'Inter', sans-serif" font-size="9">MONTHLY FACILITY AUDIT REPORT</text>
+    <line x1="35" y1="98" x2="205" y2="98" stroke="#E2E8F0" stroke-width="1.5" />
+
+    <!-- Checklist Item 1 -->
+    <rect x="35" y="110" width="16" height="16" rx="3" fill="#10B981" />
+    <polyline points="38,118 43,123 48,113" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text x="60" y="122" fill="#1E293B" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">HT/LT Transformer & DG Test</text>
+
+    <!-- Checklist Item 2 -->
+    <rect x="35" y="140" width="16" height="16" rx="3" fill="#10B981" />
+    <polyline points="38,148 43,153 48,143" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text x="60" y="152" fill="#1E293B" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">Water Pumps & Tank Hygiene</text>
+
+    <!-- Checklist Item 3 -->
+    <rect x="35" y="170" width="16" height="16" rx="3" fill="#10B981" />
+    <polyline points="38,178 43,183 48,173" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text x="60" y="182" fill="#1E293B" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">STP Parameters (BOD/COD)</text>
+
+    <!-- Checklist Item 4 -->
+    <rect x="35" y="200" width="16" height="16" rx="3" fill="#10B981" />
+    <polyline points="38,208 43,213 48,203" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text x="60" y="212" fill="#1E293B" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">Fire Hydrant Pressure Test</text>
+
+    <!-- Checklist Item 5 -->
+    <rect x="35" y="230" width="16" height="16" rx="3" fill="#10B981" />
+    <polyline points="38,238 43,243 48,233" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text x="60" y="242" fill="#1E293B" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">Lift ARD & Door Interlocks</text>
+
+    <!-- Checklist Item 6 -->
+    <rect x="35" y="260" width="16" height="16" rx="3" fill="#10B981" />
+    <polyline points="38,268 43,273 48,263" fill="none" stroke="#FFFFFF" stroke-width="2" />
+    <text x="60" y="272" fill="#1E293B" font-family="'Inter', sans-serif" font-size="10" font-weight="bold">Committee Dossier Prepared</text>
+  </g>
+
+  <!-- Side Gears -->
+  <g transform="translate(80, 160)" stroke="#10B981" stroke-width="3" fill="none">
+    <circle cx="30" cy="30" r="25" />
+    <circle cx="30" cy="30" r="10" fill="#10B981" />
+    <line x1="30" y1="0" x2="30" y2="60" />
+    <line x1="0" y1="30" x2="60" y2="30" />
+    <line x1="10" y1="10" x2="50" y2="50" />
+    <line x1="10" y1="50" x2="50" y2="10" />
+  </g>
+
+  <!-- Digital Log Badge -->
+  <rect x="440" y="160" width="130" height="80" rx="8" fill="#1E293B" stroke="#38BDF8" stroke-width="2" />
+  <text x="455" y="185" fill="#38BDF8" font-family="'Inter', sans-serif" font-weight="bold" font-size="11">DIGITAL LOGS</text>
+  <text x="455" y="205" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="9">Daily Tickets: 100%</text>
+  <text x="455" y="220" fill="#10B981" font-family="'Inter', sans-serif" font-size="9">Resolution: &lt; 2 Hrs</text>
+</svg>

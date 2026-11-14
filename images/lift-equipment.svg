@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="liftBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="glassShaft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#liftBg)" />
+
+  <!-- Elevator Shaft Structure -->
+  <g transform="translate(180, 40)">
+    <!-- Shaft Frame -->
+    <rect x="0" y="0" width="240" height="320" rx="8" fill="url(#glassShaft)" stroke="#475569" stroke-width="4" />
+    <!-- Guide Rails -->
+    <line x1="20" y1="0" x2="20" y2="320" stroke="#0284C7" stroke-width="3" />
+    <line x1="220" y1="0" x2="220" y2="320" stroke="#0284C7" stroke-width="3" />
+
+    <!-- Traction Machine Room Pulley at top -->
+    <circle cx="120" cy="30" r="24" fill="#334155" stroke="#F59E0B" stroke-width="3" />
+    <circle cx="120" cy="30" r="8" fill="#F59E0B" />
+    <!-- Suspension Steel Wire Ropes -->
+    <line x1="105" y1="30" x2="105" y2="120" stroke="#94A3B8" stroke-width="2.5" />
+    <line x1="115" y1="30" x2="115" y2="120" stroke="#94A3B8" stroke-width="2.5" />
+    <line x1="125" y1="30" x2="125" y2="120" stroke="#94A3B8" stroke-width="2.5" />
+    <line x1="135" y1="30" x2="135" y2="120" stroke="#94A3B8" stroke-width="2.5" />
+
+    <!-- Elevator Cabin (Lift Car) -->
+    <rect x="35" y="120" width="170" height="150" rx="6" fill="#1E293B" stroke="#38BDF8" stroke-width="2" />
+    <!-- Stainless Steel Doors -->
+    <rect x="45" y="130" width="70" height="130" rx="2" fill="#475569" stroke="#64748B" stroke-width="1.5" />
+    <rect x="120" y="130" width="70" height="130" rx="2" fill="#475569" stroke="#64748B" stroke-width="1.5" />
+    <!-- Center Gap -->
+    <line x1="117.5" y1="130" x2="117.5" y2="260" stroke="#0F172A" stroke-width="3" />
+    <!-- Floor Display -->
+    <rect x="90" y="135" width="55" height="18" rx="2" fill="#000000" />
+    <text x="100" y="149" fill="#10B981" font-family="monospace" font-size="11" font-weight="bold">G ▲</text>
+
+    <!-- ARD System Indicator -->
+    <rect x="40" y="280" width="160" height="26" rx="4" fill="#064E3B" stroke="#10B981" stroke-width="1" />
+    <text x="50" y="297" fill="#6EE7B7" font-family="'Inter', sans-serif" font-weight="bold" font-size="10">ARD SAFETY BACKUP: OK</text>
+  </g>
+
+  <!-- Left Info -->
+  <text x="40" y="180" fill="#BAE6FD" font-family="'Inter', sans-serif" font-weight="bold" font-size="14">MULTI-VENDOR</text>
+  <text x="40" y="200" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">AMC COORDINATION</text>
+  <text x="40" y="220" fill="#64748B" font-family="'Inter', sans-serif" font-size="10">• Otis, Schindler, Kone</text>
+  <text x="40" y="235" fill="#64748B" font-family="'Inter', sans-serif" font-size="10">• PWD License Tracking</text>
+
+  <!-- Right Info -->
+  <text x="450" y="180" fill="#BAE6FD" font-family="'Inter', sans-serif" font-weight="bold" font-size="14">EMERGENCY</text>
+  <text x="450" y="200" fill="#94A3B8" font-family="'Inter', sans-serif" font-size="11">RESCUE DRILLS</text>
+  <text x="450" y="220" fill="#64748B" font-family="'Inter', sans-serif" font-size="10">• Governor Rope Testing</text>
+  <text x="450" y="235" fill="#64748B" font-family="'Inter', sans-serif" font-size="10">• Door Interlock Sensors</text>
+</svg>

@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing and cache
+.coverage
+*.log
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+verify.py
+test_server.py
